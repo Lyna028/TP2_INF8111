@@ -1,0 +1,21 @@
+# Jeux de donnees du TP (a recuperer separement)
+data/
+
+# Python et Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+.aws/
+.gcp/
+
+# Fichiers du systeme
+.DS_Store
+Thumbs.db
+Desktop.ini
